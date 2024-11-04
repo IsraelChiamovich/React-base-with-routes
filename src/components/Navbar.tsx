@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar: React.FC = () => {
     return (
         <div className="navbar">
-            <NavLink to="/dashboard" className="nav-link">Home</NavLink>
+            <NavLink to="/" end className="nav-link">Home</NavLink>
             <NavLink to="/dashboard/credit" className="nav-link" >Credit</NavLink>
             <NavLink to="/dashboard/transactions" className="nav-link">Transactions</NavLink>
             <NavLink to="/auth/login" className="nav-link">Login</NavLink>

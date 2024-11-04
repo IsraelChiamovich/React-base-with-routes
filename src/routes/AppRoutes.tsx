@@ -10,7 +10,7 @@ const AppRoutes: React.FC = () => {
   return (
     <Routes>
       <Route path="auth/*" element={<AuthRouter />} />
-      <Route path="dashboard/*" element={<PagesRouter />} />
+      <Route path="/*" element={<PagesRouter />} />
     </Routes>
   );
 };
